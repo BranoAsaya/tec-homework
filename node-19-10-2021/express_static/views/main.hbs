@@ -1,0 +1,13 @@
+{{> header}}
+<h2>{{title}}</h2>
+{{time}}
+
+  {{#if action}}
+    {{>form}}
+    {{/if}}
+
+    {{#if events}}
+    {{>events}}
+    {{/if}}
+{{> footer}}
+

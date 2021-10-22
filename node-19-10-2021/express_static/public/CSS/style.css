@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+h2{
+  color: #7c795d;
+  font-family: "Trocchi", serif;
+  font-size: 45px;
+  font-weight: normal;
+  line-height: 48px;
+  margin: 0;
+}
+body {
+  font-family: "Josefin Sans", sans-serif;
+ 
+}
+
+.navbar {
+  font-size: 18px;
+  background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 10px;
+}
+
+.main-nav {
+  list-style-type: none;
+  display: none;
+}
+
+.nav-links,
+.logo {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.main-nav li {
+  text-align: center;
+  margin: 15px auto;
+}
+
+.logo {
+  display: inline-block;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.navbar-toggle {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+}
+
+.active {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
+  }
+
+  .main-nav {
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .main-nav li {
+    margin: 0;
+  }
+
+  .nav-links {
+    margin-left: 40px;
+  }
+
+  .logo {
+    margin-top: 0;
+  }
+
+  .navbar-toggle {
+    display: none;
+  }
+
+  .logo:hover,
+  .nav-links:hover {
+    color: rgba(255, 255, 255, 1);
+  }
+}
+
+.article {
+  width: 900px;
+  margin: 30px;
+  padding: 12px;
+  background: #efefef;
+  border-radius: 5px;
+}
+.image {
+  background: silver;
+  width: 500px;
+  height: 400px;
+  border-radius: 5px;
+  padding: 20px;
+  color: #efefef;
+  font-size: 8rem;
+}
+.image.right {
+  float: right;
+  margin-left: 20px;
+}
+.image.left {
+  float: left;
+  margin-right: 30px;
+}
+.content {
+  padding: 0 20px;
+  color: #444;
+}
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+#centered {
+  max-width: 300px;
+  margin: 50px auto 0;
+}
+
+h4{
+  font-family: 'Qwigley', cursive;
+  font-size: 7em;
+  color: #638ada;
+  text-shadow: 1px 3px black;
+}
+
+input, textarea {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  width: 100%;
+  margin: 8px 0;
+  text-indent: 1em;
+  padding: 10px 0;
+  border-radius: 3px;
+  border: 1px solid lightgray;
+}
+
+input[type="submit"] {
+  background-color: #4d90fe;
+  color: white;
+  border: 1px solid #3079ed;
+}
+
+input[type="submit"]:hover {
+  background-color: #4d9aff;
+  color: white;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 0.75em;
+}
+
