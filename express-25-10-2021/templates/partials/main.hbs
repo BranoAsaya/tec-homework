@@ -1,0 +1,20 @@
+{{>header}}
+
+
+{{#if search}}
+<form action="/" method="get" class="form">
+  <h2>GET Coordinates</h2>
+  <p>City:<input type="text" name="city"  placeholder="Write your city here.."></input></p>
+  <p></p>
+  <p></p>
+  <button type="submit">Search</button>
+  <div>
+{{/if}}
+{{#if result}}
+   <span>Latitude: {{lat}}</span>
+    <span>Longitude: {{lon}}</span> 
+{{/if}}
+    
+  </div>
+</form>
+{{>footer}}
