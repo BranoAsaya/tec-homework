@@ -92,4 +92,5 @@ app.patch("/comments/:id", (req, res) => {
   res.sendStatus(200);
 });
 
+app.get("*",(req,res)=>{res.sendStatus(404); })
 app.listen(PORT);
