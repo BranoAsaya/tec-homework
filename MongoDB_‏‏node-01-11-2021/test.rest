@@ -1,0 +1,15 @@
+GET http://localhost:8080/tasks
+###
+PATCH http://localhost:8080/tasks/22
+Content-Type: application/json
+
+{
+
+"userId": 11, "id": 11, "title": "lorem", "completed": false
+}
+###
+GET http://localhost:8080/tasks/22
+###
+
+DELETE http://localhost:8080/tasks/22
+###
