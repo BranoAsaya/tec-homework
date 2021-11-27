@@ -1,0 +1,29 @@
+.top_img_div{
+background: red;
+width: 1360px;
+height: 400px;
+}
+.top_img_div img{
+width: 1360px;
+height: 400px;
+} 
+    
+.bottom_img{
+width: 1360px;
+height: 200px;
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-between;
+}
+
+.one_div{
+background: green;
+width: 300px;
+height: 200px;
+}
+
+.one_div img{
+width: 300px;
+height: 200px; 
+}
+
