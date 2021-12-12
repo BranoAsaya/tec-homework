@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  font-family:'Calibri Light';
+  height: 0;
+}
+a {
+  text-decoration: none;
+  margin: 10px;
+  color: #fff;
+  float: right;
+  font-size: 150%;
+  margin-left: 5px;
+  padding: 10px;
+}
+footer {
+  background-color:#0a0808 ;
+  color: #ffecca;
+  height: 100px; 
+}
+footer img {
+  margin-left: 30px;
+}
+nav{
+  background-color: #0a0808;
+  height: 80px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  
+}
+.home{
+  background-image: url('https://i.ibb.co/FwV2Wfh/photo-1571171637578-41bc2dd41cd2-ixlib-rb-1-2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  
+}
+.top_slide{
+  background-color: black;
+  height: 100px;
+}
