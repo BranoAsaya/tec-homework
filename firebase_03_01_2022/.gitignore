@@ -4,4 +4,4 @@ dist
 dist-ssr
 *.local
 api
-/api_key.jsx
+**/api
